@@ -1,0 +1,183 @@
+Microsoft Windows [Version 10.0.22631.4037]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Himanshu>npm create vite@latest
+Need to install the following packages:
+create-vite@5.5.2
+Ok to proceed? (y) y
+√ Project name: ... ev-website
+√ Select a framework: » React
+√ Select a variant: » JavaScript + SWC
+
+Scaffolding project in C:\Users\Himanshu\ev-website...
+
+Done. Now run:
+
+  cd ev-website
+  npm install
+  npm run dev
+
+
+C:\Users\Himanshu>cd ev-website
+
+C:\Users\Himanshu\ev-website>npm run dev
+
+> ev-website@0.0.0 dev
+> vite
+
+'vite' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Himanshu\ev-website>ev-website@0.0.0 dev
+'ev-website@0.0.0' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Himanshu\ev-website>
+
+
+in vs code 
+
+npm install
+
+npm run dev
+
+- the react project along with the vite is running on broswer
+
+- get rid of the react previous code.
+
+app.jsx clean the file and type rafc
+app.css clean the file and 
+index.css clear everything , add
+body{
+  margin: 0;
+  padding: 0;
+}
+
+index.html
+- change the title 
+
+assets
+- removed the photo or logo
+public
+- removed the photo or logo
+
+
+Creating a Folder Structure For the React Project
+
+Have create 
+a Components folder inside a src folder
+> components
+ > Hero 	> Background 	>Navbar
+		>Background.jsx
+		>Background.css
+		link this with jsx
+
+Q.how to link CSS file with JSX?
+-	import './Background.css'
+
+
+ > Hero 	> Background 	>Navbar
+ >Hero.jsx
+ >Hero.css
+ link this to jsx
+Hero.jsx
+import './Hero.css'
+
+
+ > Hero 	> Background 	>Navbar
+				>Navbar.jsx
+				>Navbar.css
+				link Navbar.jsx to css
+import './Navbar.css'
+
+
+# Inserting the Assets inside the assets folder
+
+Props?
+useState?
+setPlayStatus?
+
+
+setPlayStatus={setPlayStatus}
+      heroData={heroData}
+      heroCount={heroCount}
+      setHeroCount={setHeroCount}
+      playStatus={playStatus} 
+
+??
+
+
+Before Get Started with React Js
+- Understanding the DOM and dynamic websites
+Q.What are dynamic websites
+@.How are they different from static Websites
+Q.How up unitll react was introduced it was very hard to write to dynamic,
+
+
+https://vitejs.dev/guide/static-deploy.html
+Vite.js
+Is a rapid development tool for moden web projects.
+It focuses on speed and performance by improving the development experience.
+
+
+code -a .
+
+cd ..
+//get out of directory
+
+mkdir
+//create a directory
+
+ls 
+// list of directory
+
+with cd filename
+//we can jump from one to another folder
+
+code -a .
+//your file is selected
+
+choose your framework
+
+ cd MyFirstReactVitePrj
+  npm install
+  npm run dev
+
+Our project is created
+
+#how to deploy
+To Deploy we need to Build it first
+And form vite.js documentation we can 
+do lot of things.
+
+npm run build
+//for production deployment
+// you will able to see the dist folder not the build folder
+
+npm run preview
+//you can able to see the preview
+//not shareable 
+
+
+You can use it on netlify
+npm install -g netlify-cli
+ntl init
+ntl deploy
+
+
+
+
+
+# React Props(Properties/attributes)
+- React Props (properties) facilitate data transfer from parent to child components.
+- Data flows unidirectionally, ensuring a clear direction of information in React Applications.
+- Props Are immutable, Meaning child components cannot modify the data received from parents.
+- Child components access props through their function parameters.
+- You can also pass JSX as props to another component.
+
+
+English with Lucy
+English with jennifer
+English with rachel's
+mr english duncan
+bcc learning english

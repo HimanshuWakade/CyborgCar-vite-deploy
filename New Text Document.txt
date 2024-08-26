@@ -1,0 +1,35 @@
+Microsoft Windows [Version 10.0.22631.4037]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Himanshu>npm create vite@latest
+Need to install the following packages:
+create-vite@5.5.2
+Ok to proceed? (y) y
+√ Project name: ... ev-website
+√ Select a framework: » React
+√ Select a variant: » JavaScript + SWC
+
+Scaffolding project in C:\Users\Himanshu\ev-website...
+
+Done. Now run:
+
+  cd ev-website
+  npm install
+  npm run dev
+
+
+C:\Users\Himanshu>cd ev-website
+
+C:\Users\Himanshu\ev-website>npm run dev
+
+> ev-website@0.0.0 dev
+> vite
+
+'vite' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Himanshu\ev-website>ev-website@0.0.0 dev
+'ev-website@0.0.0' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Himanshu\ev-website>
